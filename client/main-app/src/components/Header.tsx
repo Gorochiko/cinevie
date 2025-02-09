@@ -3,7 +3,7 @@
    import Image from "next/image"
    export default function Header(){
       return(
-         <div className="flex justify-between sm:flex-row items-center px-8 bg-gradient-to-r from-red-500 via-blue-500 to-white text-white fixed top-0 left-0 right-0 z-30 backdrop-filter backdrop-blur-xl">
+         <div className="flex justify-between sm:flex-row items-center px-8 bg-gradient-to-r from-red-500 via-blue-500 to-white text-white   top-0 left-0 right-0 backdrop-filter backdrop-blur-xl">
          <div className="flex items-center">
          <Link href="/">
             <Image src="/logocinevie.svg" 
